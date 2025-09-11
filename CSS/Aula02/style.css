@@ -1,0 +1,59 @@
+img {
+    display: block;
+    margin: 0 auto; /* centraliza */
+    }
+    p {
+        color:rgb(0, 0, 0);
+        font-size: 16px; /* tamanho fixo */
+        }
+ h1 {
+     color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgb(66, 66, 66);
+    }
+
+p {
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight:weight;
+        font-style:normal;
+   }
+   /* Adcionando fontes*/
+h1{
+    font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+    width: 700px;
+    height: auto; /* mantém a proporção */
+    }
+
+img {
+    border: 5px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px gray;
+    }
+img:hover {
+        filter: brightness(120%); /* clareia ao passar o mouse */
+        }
+table, th, td {
+            border: 3px solid rgb(34, 0, 113);
+            }
+tr:nth-child(even) { /* linhas pares */
+    background-color: #b8eaa9;
+            }
+    tr:nth-child(odd) { /* linhas ímpares */
+    background-color: #cce4f8;
+    }
+    th, td {
+        padding: 10px; /* espaço interno */
+        text-align: center; /* centralizar texto */
+        }
+
+    table {
+            width: 50%; /* ocupa toda a largura */
+            }
+            
+    th, td {
+            height: 40px; /* altura das células */
+            }

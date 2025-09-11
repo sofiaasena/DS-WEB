@@ -1,0 +1,28 @@
+/*Comentário CSS*/
+body{
+    /*background:radial-gradient(cirle, rgb(172, 76, 240) rgb(235, 145, 247) rgb(182, 0, 254));*/
+    background: radial-gradient(circle, rgb(200,160,290), rgb(197, 145, 236), rgb(141, 2, 176));
+}
+P{
+    color:rgb(255, 255, 255);
+}
+h1{
+    color:rgb(255, 255, 255);
+}
+ul{
+    color:rgb(255, 255, 255);
+}
+
+/* ----------------Seletor class*/
+.parágrafobla{
+    color:rgb(4, 247, 255);
+}
+
+/* ----------------Seletor id*/
+#parágraforoupa{
+    background:linear-gradient(to left, rgb(241, 224, 251), rgb(169, 110, 217), rgb(54, 5, 94)); 
+}
+.div{
+    background:linear-gradient(to right, rgb(241, 224, 251), rgb(169, 110, 217), rgb(54, 5, 94)); width: 300px; 
+}
+/* rgba ultimo numero define a transparencia, de 0 a 1*/
