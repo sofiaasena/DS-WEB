@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Atividade 03 - exercício 02</title>
+    </head>
+    <body>
+        <h1>Formulário de pesquisa de preferências</h1>
+        <form action="processa.php" method="get"></form>
+        <label>Gênero:</label>
+        <input type="radio" id="opcao1" name="Gênero" value="Feminino"required>
+    <label for="feminino">Feminino</label>
+    <input type="radio" id="opcao2" name="Gênero" value="Masculino">
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="outro" name="Gênero" value="Outro">
+    <label for="outro">Outro</label>
+    <br>
+    <br>
+    <label>Interesses:</label>
+    <input type="checkbox" id="interesses" name="Interesses" value="Tecnologia">
+    <label for="Tecnologia">Tecnologia</label>
+    <input type="checkbox" id="promocoes" name="interesses" value="Esportes" checked>
+    <label for="Esportes">Esportes</label>
+    <input type="checkbox" id="interesses" name="Interesses" value="Arte">
+    <label for="Arte">Arte</label>
+    <input type="checkbox" id="promocoes" name="interesses" value="Música" checked>
+    <label for="Música">Música</label>
+    <br>
+    <br>
+    <label for="carros">Escolha um carro:</label>
+    <select id="carros" name="carros" multiple>
+    <optgroup label="Sedans">
+    <option value="corolla">Toyota Corolla</option>
+    <option value="civic">Honda Civic</option>
+    </optgroup>
+    <optgroup label="SUVs">
+    <option value="crv">Honda CR-V</option>
+    <option value="rav4">Toyota RAV4</option>
+    </optgroup>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Enviar">
+    </body>
+</html>
