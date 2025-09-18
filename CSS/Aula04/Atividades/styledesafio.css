@@ -1,0 +1,107 @@
+div{
+    margin:0 auto;
+    height: 10px;
+    width: 800px;
+}
+.div1{
+    background-color: rgb(169, 247, 172);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.div2{
+    background-color: rgb(255, 167, 239);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border: 3px dashed rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.div3{
+    background-color: rgb(128, 230, 255);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border: 8px  double rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.div4{
+    background-color: rgb(252, 124, 124);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border: 3px dashed rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.div5{
+    background-color: rgb(253, 251, 142);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.div6{
+    background-color: rgb(236, 140, 255);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border: 3px dashed rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.div7{
+    background-color: rgb(252, 155, 103);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border: 8px  double rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.div8{
+    background-color: rgb(252, 73, 136);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border: 3px dashed rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.div9{
+    background-color: rgb(129, 118, 254);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;   
+    }
+    .div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover, .div7:hover, .div8:hover, .div9:hover {
+        color: white;
+    }

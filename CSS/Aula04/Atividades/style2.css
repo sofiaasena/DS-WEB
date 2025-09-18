@@ -1,0 +1,158 @@
+body{
+    text-align: center;
+}
+/*Exercício 1 */
+.ex1{
+    background-color: rgba(255, 181, 206, 0.619);
+    width: 300px;
+    height: 200px;
+    padding: 20;
+    margin: 0 auto;
+    border: 2px solid rgb(241, 90, 185); ;
+    text-align: center;
+    align-content: center;
+}
+/*Exercício 2 */
+.ex2-1{
+    background-color: rgba(216, 119, 216, 0.27);
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid rgb(170, 16, 172); ;
+    text-align: center;
+    align-content: center;
+}
+.ex2-2{
+    background-color: rgba(243, 85, 193, 0.249);
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid rgb(189, 65, 152); 
+    text-align: center;
+    align-content: center;
+}
+/*Exercício 3 */
+div{
+    background-color: rgba(128, 128, 128, 0.085);
+    width: 550px;
+    height: 49px;
+    margin: 0 auto
+}
+.ex3-1{
+    background-color: rgba(238, 232, 170, 0.43);
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+    border: 2px solid rgb(198, 196, 196);
+    text-align: center;
+    align-content: center;
+}
+.ex3-2{
+    background-color:rgba(152, 251, 152, 0.43);
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+    border: 2px solid rgb(198, 196, 196);
+    text-align: center;
+    align-content: center;
+}
+.ex3-3{
+    background-color:rgba(216, 112, 147, 0.43);
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+    border: 2px solid rgb(198, 196, 196);
+    text-align: center;
+    align-content: center;
+}
+.ex3-4{
+    background-color:rgba(175, 238, 238, 0.43);
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+    border: 2px solid rgb(198, 196, 196);
+    text-align: center;
+    align-content: center;
+}
+/*Exercício 4 */
+.ex4{
+    background-color: plum;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+.ex4-2{
+    background-color: rgb(255, 192, 242);
+    width: 200px;
+    height: 100;
+    padding: 90px;
+    margin:0 auto;
+    text-align: center;
+    align-content: center;
+}
+/*Exercício 5*/
+.c5{
+    background-color: rgba(166, 164, 164, 0.071);
+    width: 1100px;
+    height: 300px;
+    margin: 0 auto
+}
+.ex5-1{
+    background-color: rgba(152, 251, 152, 0.341);
+    width: 200px ;
+    height: 250px;
+    padding: 15px ;
+    margin: 10px;
+    border: 2px solid palegreen;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+.ex5-2{
+    background-color: rgba(152, 205, 251, 0.341);
+    width: 200px ;
+    height: 250px;
+    padding: 15px ;
+    margin: 10px;
+    border: 2px solid rgb(152, 221, 251);
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+.ex5-3{
+    background-color: rgba(226, 152, 251, 0.341);
+    width: 200px ;
+    height: 250px;
+    padding: 15px ;
+    margin: 10px;
+    border: 2px solid rgb(208, 152, 251);
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+/*Exercício 6*/
+.ex6{
+    background-color: rgb(191, 151, 230);
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+
+}
+.ex6-2{
+    background-color: rgba(169, 105, 212, 0.374);
+    width: 400px;
+    height: 80px;
+    padding: 20px;
+    margin:auto;
+}

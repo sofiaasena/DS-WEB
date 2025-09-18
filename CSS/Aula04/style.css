@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.box{
+    display: inline-block;
+    background-color: rgba(253, 157, 189, 0.648);
+    width: 100px;
+    height: 100px;
+    padding: 10px 30px; /* espaço interno em todos os lados */
+    border: 2px solid rgb(241, 90, 185);
+    margin: 10px 50px;
+    text-align: center;
+    align-content: center;
+}
+.box2{
+    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.099);
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(107, 20, 220);
+    padding: 20px;
+    margin: 10px 50px;
+}
+.div centralizada{
+    margin: o auto;
+    width: 300px;
+}
+
+.conteudo1{
+    display: inline-block;
+    width: 100px;
+    margin: 0 auto;
+}
+.conteudo2{
+    display: inline-block;
+    width: 100px;
+    margin: 0 auto;
+
+}
+
+
+
