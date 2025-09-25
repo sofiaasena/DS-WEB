@@ -1,0 +1,49 @@
+.ex1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(244, 101, 149);
+    position: relative;
+    left: 30px; 
+    top: 20px;
+    text-align: center;
+    align-content: center;
+}
+.ex2{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(230, 207, 255);
+    position: relative;
+}
+.ex2-2{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.ex3{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h4{
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.ex4{
+    height: 60px;
+    background-color: orangered;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0;
+}
+.ex4-2{
+    background-color: rgba(238, 112, 66, 0.471);
+    
+}
