@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(128, 128, 128, 0.345);
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(133, 1, 1);
+    /*margin:0px 0px 0px 250px;
+    /*margin-left: 270px;*/
+    display: inline-block;  
+   padding: 10px;
+   align-content: center;
+}
+h1{
+    text-align: center;
+    align-content: center;
+    display:inline-block;
+    margin: 10px;
+    padding: 15px;
+    margin-left: 150px;
+    
+      
+}
+a{
+            color: rgb(196, 121, 0);
+            display: inline-block;
+            margin: 2px;
+            background-color: rgb(92, 10, 10);
+            border-radius:10px ;
+                   
+}
+.d, .a , .b, .c{
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+   
+    
+}
+.d{
+    
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-left: 150px;       
+}
+.a{
+    
+    
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    
+
+   
+}
+.b{
+   
+    display: inline-block;   
+    align-content: center;
+    text-align: center;
+    
+    
+}
+.c{
+    display: inline-block;
+    align-content: center;
+    text-align: center;        
+}
+table, th, td {
+    align-content: center;
+    text-align: center;
+    width: 70%;
+    height: 50%;
+    border: 3px solid rgba(113, 0, 0, 0.647);
+}
+tr:nth-child(even) { /* linhas pares */
+    background-color: rgba(172, 169, 169, 0.19);
+            }
+    tr:nth-child(odd) { /* linhas ímpares */
+    background-color: #b10101a1;
+    }
+h2{
+    font-family: "Chango", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(167, 22, 22, 0.841);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="reservas.css">
+</head>
+<body>
+    <div class="menu">
+        <h1 align="center">Sabor & Arte</h1>
+        <div class="d">
+            <a href="index.html">Voltar para página inicial</a>
+        </div>
+        <div class="a">
+        <a href="cardápio.html"> Conheça o nosso cardápio </a>
+        </div>
+        <div class="b">
+        <a href="promoções.html"> Obtenha acesso as nossas promoções </a>
+    </div>
+    <div class="c">
+        <a href="reservas.html"> Faça a sua reserva </a>     
+    </div>
+    </div>
+    <br> <br> <br> <br> <br>
+    <div class="res">
+    <h2 align="center"> Reserve já e aproveite a melhor refeição de sua vida!</h2>
+    <h5 align="center"> Adicione seus dados e sua reserva será enviada automaticamente</h5>
+</div>
+    <br> <hr> <br>
+    <div class="formulário">
+    <form action="processa.php" method="get">
+        <label for="nome">Nome:</label> <br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        <br> <br>
+        <label for="Telefone">Telefone:</label> <br>
+        <input type="tel" id="Telefone" name="Telefone"  placeholder="Digite seu telefone"required>
+        <br> <br>
+        <label for="email">E-mail:</label> <br>
+        <input type="email" id="email" name="email" placeholder="email@exemplo.com" required>
+        <br><br>
+        <label for="Qpessoas">Quantidade de pessoas:</label> <br>
+        <input type="number" id="Qpessoas" name="Qpessoas" min="1" max="40" required>
+        <br><br>
+
+    <label for="resumo">Área de texto:</label><br>
+    <textarea id="resumo" name="resumo" rows="6" cols="30" max-length="300" required> Digite aqui se houver dúvidas.</textarea>
+    <br><br>
+    <input type="submit" value="Enviar Reserva">
+        </form>
+    <br>
+    </div>
+    <br><br> <hr><br>
+    <hr>
+    <br>
+
+</body>
+</html>

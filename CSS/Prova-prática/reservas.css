@@ -1,0 +1,112 @@
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(133, 1, 1);
+    /*margin:0px 0px 0px 250px;
+    /*margin-left: 270px;*/
+    display: inline-block;  
+   padding: 10px;
+   align-content: center;
+}
+h1{
+    text-align: center;
+    align-content: center;
+    display:inline-block;
+    margin: 10px;
+    padding: 15px;
+    margin-left: 150px;
+    
+      
+}
+a{
+            color: rgba(255, 196, 0, 0.574);
+            display: inline-block;
+            margin: 2px;
+            background-color: rgb(99, 4, 4);
+            border-radius:10px ;
+                   
+}
+.d, .a , .b, .c{
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+   
+    
+}
+.d{
+    
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-left: 150px;       
+}
+.a{
+    
+    
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    
+
+   
+}
+.b{
+   
+    display: inline-block;   
+    align-content: center;
+    text-align: center;
+    
+    
+}
+.c{
+    display: inline-block;
+    align-content: center;
+    text-align: center;        
+}
+form{
+    align-content: center;
+    text-align: center;
+    border-radius: rgb(189, 5, 5) 90px;
+    
+}
+label{
+    border-radius: rgb(210, 2, 2) 15px;
+    color: rgb(187, 0, 0);
+}
+input{
+    background-color: rgba(255, 74, 74, 0.201);
+}
+hr{
+    width: 1000px;
+}
+h5{
+    color: rgba(169, 12, 12, 0.878);
+}
+.input:houver , .label:houver, .form:houver{
+    color: #b80000;
+}
+.res{
+    align-content: center;
+    text-align: center;
+    background-color: rgba(144, 33, 33, 0.216);
+    margin: 20px;
+    margin-left: 350px;
+    width: 800px;
+    border-radius: 15px;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.178);
+}
+.formulário{
+    background-color: rgba(173, 41, 41, 0.071);
+    margin: 20px;
+    margin-left: 350px;
+    width: 800px;
+    border-radius: 15px;
+}
+
