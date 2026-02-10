@@ -1,0 +1,14 @@
+<?php
+class Pessoa{
+    public $nome //Atributo
+
+    public function falar(){ //Método
+
+        return "O meu nome é :".$this->nome;
+
+    }
+}
+    $sofia = new Pessoa();
+    $sofia->nome = "Sofia Sena";
+    echo $sofia->falar();
+?>
