@@ -1,0 +1,91 @@
+const form = document.getElementById("formulario");
+
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    let valido = true;
+
+    const nome = document.getElementById("nome").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const senha = document.getElementById("senha").value;
+    const confirmaSenha = document.getElementById("confirma-senha").value;
+    let cpf = document.getElementById("cpf").value.trim();
+    const telefone = document.getElementById("telefone").value.trim();
+    const cep = document.getElementById("cep").value.trim();
+    const data = document.getElementById("data-nascimento").value.trim();
+    const valor = document.getElementById("valor").value.trim();
+    const url = document.getElementById("url").value.trim();
+    const cartao = document.getElementById("cartao").value.trim();
+
+    
+    document.querySelectorAll("span").forEach(span => span.textContent = "");
+    document.getElementById("resultado").innerHTML = "";
+
+    //Nome
+    if (nome.length < 3) { document.getElementById("erro-nome").textContent = "Nome muito curto"; valido = false; }
+    if (nome === ""){document.getElementById("erro-nome").textContext = "Preencha o campo"};
+
+    //Email
+    if (!email.includes("@")) { document.getElementById("erro-email").textContent = "E-mail inválido"; valido = false; }
+    
+
+    //Senha
+    if (senha.length < 6 || senha !== confirmaSenha) { document.getElementById("erro-senha").textContent = "Senha inválida ou não confere"; valido = false; }
+
+
+    //CPF
+    cpf = cpf.replace(/\D/g,''); 
+    if (cpf.length !== 11) { document.getElementById("erro-cpf").textContent = "CPF deve ter 11 números"; valido = false; }
+
+
+    //Telefone
+    const telefoneNum = telefone.replace(/\D/g,'');
+    if (telefoneNum.length < 10) { document.getElementById("erro-telefone").textContent = "Telefone inválido"; valido = false; }
+
+
+    //CPF
+    const cepNum = cep.replace(/\D/g,'');
+    if (cepNum.length !== 8) { document.getElementById("erro-cep").textContent = "CEP inválido"; valido = false; }
+
+
+    //Data
+    if (!data) { document.getElementById("erro-data-nascimento").textContent = "Data inválida"; valido = false; }
+
+
+    //Valor
+    if (!valor.includes(",")) { document.getElementById("erro-valor").textContent = "Valor deve ter vírgula"; valido = false; }
+
+
+    //URL
+    if (!url.startsWith("http://") && !url.startsWith("https://")) { document.getElementById("erro-url").textContent = "URL inválida"; valido = false; }
+
+
+    //Numero cartão
+    const numeroCartao = cartao.replace(/\D/g,'');
+    if (numeroCartao.length !== 16) { document.getElementById("erro-cartao").textContent = "Cartão deve ter 16 dígitos"; valido = false; }
+
+
+
+   //Bandeira
+    let bandeira = "Desconhecida";
+    if (numeroCartao.startsWith("4")) bandeira = "Visa";
+    else if (numeroCartao.startsWith("5")) bandeira = "Mastercard";
+    else if (numeroCartao.startsWith("3")) bandeira = "American Express";
+
+   
+
+    //Mostra o resultado
+    if (valido){
+        document.getElementById("resultado").innerHTML = `
+        <Formulário válido<br>
+        Nome: ${nome}<br>
+        E-mail: ${email}<br>
+        CPF: ${cpf}<br>
+        Telefone: ${telefoneNum}<br>
+        CEP: ${cepNum}<br>
+        Data: ${data}<br>
+        Valor: ${valor}<br>
+        URL: ${url}<br>
+        Cartão: ${numeroCartao} - Bandeira: ${bandeira}`;
+    }
+});
